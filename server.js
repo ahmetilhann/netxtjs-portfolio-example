@@ -1,3 +1,4 @@
+// burasi kullanilmiyor. next 9 icin
 const express = require('express');
 const next = require('next');
 
