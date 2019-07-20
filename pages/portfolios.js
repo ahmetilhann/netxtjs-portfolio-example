@@ -26,7 +26,7 @@ class Portfolios extends Component {
                 <ul>
                     {posts.map(item => (
                         <li>
-                            <Link key={item.id} href={`/portfolio?title=${item.title}`} as={`/portfolio/${item.id}`}>
+                            <Link key={item.id} as={`/portfolio/${item.id}`} href="/portfolio/[id]">
                                 <a style={{ fontSize: 28 }}>{item.title}</a>
                             </Link>
                         </li>
