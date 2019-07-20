@@ -1,24 +1,25 @@
 import React, { Fragment } from 'react';
-import Link from 'next/link';
+import { Link } from '../../routes';
 import '../../styles/main.scss';
 
 const Header = () => (
     <Fragment>
         <p className="customClass">P element test</p>
         <p className="customClassFromFile">P element test from file</p>
-        <Link href="/">
+        
+        <Link route="index">
             <a>Home</a>
         </Link>
-        <Link href="/about">
+        <Link route="about">
             <a>About</a>
         </Link>
-        <Link href="/cv">
+        <Link route="cv">
             <a>Cv</a>
         </Link>
-        <Link href="/portfolios">
+        <Link route="portfolios">
             <a>Portfolios</a>
         </Link>
-        <Link href="/blogs">
+        <Link route="blogs">
             <a>Blogs</a>
         </Link>
     </Fragment>

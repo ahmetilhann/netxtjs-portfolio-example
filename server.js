@@ -1,11 +1,11 @@
 // burasi kullanilmiyor. next 9 icin
 const express = require('express');
 const next = require('next');
+const routes = require('./routes');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
-
-const handle = app.getRequestHandler();
+const handle = routes.getRequestHandler(app);
 
 app.prepare()
 .then(() => {
