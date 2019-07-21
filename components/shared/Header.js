@@ -4,9 +4,6 @@ import '../../styles/main.scss';
 
 const Header = () => (
     <Fragment>
-        <p className="customClass">P element test</p>
-        <p className="customClassFromFile">P element test from file</p>
-        
         <Link route="index">
             <a>Home</a>
         </Link>
