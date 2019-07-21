@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
+import Typed from 'react-typed';
 import BaseLayout from '../components/layouts/BaseLayout';
 import SuperComponent from '../components/SuperComponent';
 
@@ -48,6 +49,19 @@ class Index extends SuperComponent {
                                         I was working on through the years!
                                     </h1>
                                 </div>
+                                <Typed 
+                                    loop 
+                                    typeSpeed={50} 
+                                    backSpeed={20} 
+                                    strings={['testting', 'some more testting', 'bla bla blaaa']} 
+                                    smartBackspace
+                                    backDelay={1}
+                                    className="self-typed"
+                                    fadeOutDelay={1000}
+                                    loopCount={0}
+                                    showCursor
+                                    cursorChar="|"
+                                />
                                 <div className="hero-welcome-bio">
                                     <h1>Let&apos;s take a look on my work.</h1>
                                 </div>

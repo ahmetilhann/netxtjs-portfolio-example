@@ -28,5 +28,6 @@ module.exports = {
     "jsx-a11y/anchor-has-content": "off",
     "react/prop-types": "off",
     "no-trailing-spaces": "off",
+    "react/jsx-indent-props": "off",
   },
 };
