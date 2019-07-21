@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from '../../routes';
-import '../../styles/main.scss';
 
 const Header = () => (
     <Fragment>

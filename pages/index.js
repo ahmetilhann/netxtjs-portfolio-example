@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container } from 'reactstrap';
 import BaseLayout from '../components/layouts/BaseLayout';
 import SuperComponent from '../components/SuperComponent';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class Index extends SuperComponent {
     constructor() {
