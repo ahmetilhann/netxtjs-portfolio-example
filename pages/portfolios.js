@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
 import BaseLayout from '../components/layouts/BaseLayout';
+import BasePage from '../components/BasePage';
 
 
 class Portfolios extends Component {
@@ -23,6 +24,7 @@ class Portfolios extends Component {
         const { posts } = this.props;
         return (
             <BaseLayout>
+                <BasePage>
                 <ul>
                     {posts.map(item => (
                         <li>
@@ -32,6 +34,7 @@ class Portfolios extends Component {
                         </li>
                     ))}
                 </ul>
+                </BasePage>
             </BaseLayout>
         );
     }
